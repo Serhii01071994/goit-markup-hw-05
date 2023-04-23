@@ -27,7 +27,7 @@
           >
           <ul class="list link header-item">
             <li class="header-item">
-              <a class="link-style link" href="./index.html">Studio</a>
+              <a class="link-style link current" href="./index.html">Studio</a>
             </li>
             <li class="header-item">
               <a class="link-style link" href="./portfolio.html">Portfolio</a>
@@ -59,7 +59,7 @@
       <section class="hero">
         <div class="hero-block container">
           <h1 class="first-hdr">Effective Solutions for Your Business</h1>
-          <button class="btn-hero" type="button">Order Service</button>
+          <button data-modal-open class="btn-hero" type="button">Order Service</button>
         </div>
       </section>
       <!-- Достоинства -->
@@ -388,5 +388,21 @@
         </div>
       </div>
     </footer>
+    /**
+      |============================
+      | Modal window
+      |============================
+    */
+    
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn-close" type="button" data-modal-close>
+          <svg class="modal-btn-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#modal"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
