@@ -607,35 +607,35 @@ img {
   pointer-events: none;
 }
 .modal {
-position: absolute;
-width: 408px;
-height: 576px;
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%) ;
-background: #FCFCFC;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 
-0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 4px;
-opacity: 1;
-transition: var(--timing-animatiom);
+  position: absolute;
+  width: 408px;
+  height: 576px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #fcfcfc;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  opacity: 1;
+  transition: var(--timing-animatiom);
 }
-.modal-btn-close{
+.modal-btn-close {
   position: absolute;
   top: 24px;
   right: 24px;
-  background: #E7E9FC;
-border: 1px solid rgba(0, 0, 0, 0.1);
-border-radius: 50%;
-width: 24px;
-height: 24px;
-display: flex;
-justify-content: center;
-align-items: center;
-transition: var(--timing-animatiom);
+  background: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: var(--timing-animatiom);
 }
 .modal-btn-close:hover,
-.modal-btn-close:focus{
-  background: #404BBF;
-fill: var(--social-footer);
+.modal-btn-close:focus {
+  background: #404bbf;
+  fill: var(--social-footer);
 }
