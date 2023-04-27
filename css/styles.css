@@ -494,7 +494,10 @@ img {
   letter-spacing: 0.04em;
   cursor: pointer;
   padding: 12px 24px;
-  transition: background-color var(--timing-animatiom);
+  transition: background-color var(--timing-animatiom),
+  color var(--timing-animatiom),
+  border var(--timing-animatiom),
+  box-shadow var(--timing-animatiom);
 }
 
 .btn-item:hover,
